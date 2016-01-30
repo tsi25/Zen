@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 730991875285d3b4a95b70658960274f
-timeCreated: 1454154092
+timeCreated: 1454158314
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -82,6 +82,13 @@ SubstanceImporter:
         scalar[1]: 0.0889601
         scalar[2]: 0.180392
         scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: rotation
+      value:
+        scalar[0]: 0.25
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
         texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5

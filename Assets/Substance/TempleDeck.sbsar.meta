@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 90a1eeda63a41064bbdef9227b75cb9a
-timeCreated: 1454153328
+timeCreated: 1454158691
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -54,6 +54,20 @@ SubstanceImporter:
         scalar[1]: 0.33751127
         scalar[2]: 0.3008218
         scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: metallic
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: rotation
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
         texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
@@ -202,6 +216,11 @@ SubstanceImporter:
       filterMode: 1
       aniso: 1
       wrapMode: 0
+    - name: TempleDeck_metalic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
     textureAssignments:
     - shaderProp:
         name: _MainTex
@@ -215,6 +234,10 @@ SubstanceImporter:
         name: _ParallaxMap
       material: {instanceID: 0}
       baseUID: 2937329916
+    - shaderProp:
+        name: _MetallicGlossMap
+      material: {instanceID: 0}
+      baseUID: 2937325126
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
