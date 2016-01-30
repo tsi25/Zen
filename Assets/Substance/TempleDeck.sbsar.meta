@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 90a1eeda63a41064bbdef9227b75cb9a
-timeCreated: 1454158691
+timeCreated: 1454175630
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -9,7 +9,7 @@ SubstanceImporter:
     name: TempleDeck
     prototypeName: TempleDeck
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: _NORMALMAP _PARALLAXMAP
+    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
     lightmapFlags: 5
     inputs:
@@ -72,7 +72,7 @@ SubstanceImporter:
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
+      scale: {x: 10, y: 10}
       generateMipmaps: 1
       generateAllOutputs: 0
       animationUpdateRate: 0
@@ -84,14 +84,14 @@ SubstanceImporter:
             name: _MainTex
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 10, y: 10}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _BumpMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 10, y: 10}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -105,7 +105,7 @@ SubstanceImporter:
             name: _ParallaxMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 10, y: 10}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -119,7 +119,7 @@ SubstanceImporter:
             name: _EmissionMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 10, y: 10}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -140,7 +140,7 @@ SubstanceImporter:
             name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 10, y: 10}
             offset: {x: 0, y: 0}
       floats:
         data:

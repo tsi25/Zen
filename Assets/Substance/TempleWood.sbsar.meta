@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f0336c7a169ee3640899b818ee649c9e
-timeCreated: 1454154122
+timeCreated: 1454178637
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -9,7 +9,7 @@ SubstanceImporter:
     name: TempleWood
     prototypeName: TempleWood
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: 
+    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP
     renderQueue: -1
     lightmapFlags: 5
     inputs:
@@ -62,10 +62,24 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 1
         texture: {instanceID: 0}
+    - name: accentColor
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: rotation
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
+      scale: {x: 10, y: 10}
       generateMipmaps: 1
       generateAllOutputs: 0
       animationUpdateRate: 0
@@ -77,14 +91,14 @@ SubstanceImporter:
             name: _MainTex
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 10, y: 10}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _BumpMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 10, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -92,6 +106,13 @@ SubstanceImporter:
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 10, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -112,7 +133,7 @@ SubstanceImporter:
             name: _EmissionMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 10, y: 10}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -124,13 +145,6 @@ SubstanceImporter:
         data:
           first:
             name: _DetailAlbedoMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
@@ -150,10 +164,6 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Parallax
-          second: 0.02
-        data:
-          first:
             name: _ZWrite
           second: 1
         data:
@@ -162,8 +172,16 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Metallic
+          second: 0
+        data:
+          first:
             name: _BumpScale
           second: 1
+        data:
+          first:
+            name: _Parallax
+          second: 0.02
         data:
           first:
             name: _OcclusionStrength
@@ -179,10 +197,6 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
-          second: 0
-        data:
-          first:
-            name: _Metallic
           second: 0
       colors:
         data:
