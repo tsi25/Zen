@@ -197,7 +197,7 @@ public class TangoDeltaPoseController : MonoBehaviour, ITangoPose
             Debug.Log("No Tango Manager found in scene.");
         }
 
-        SetPose(transform.position, transform.rotation);
+        SetPose(Vector3.zero, transform.rotation);
     }
 
     /// <summary>
@@ -278,9 +278,9 @@ public class TangoDeltaPoseController : MonoBehaviour, ITangoPose
 
         m_uwOffsetTuw = Matrix4x4.TRS(pos, quat, Vector3.one) * m_uwTuc.inverse;
 
-        m_prevTangoPosition = m_tangoPosition = pos;
+        //m_prevTangoPosition = m_tangoPosition = pos;
         m_prevTangoRotation = m_tangoRotation = quat;
-        m_characterController.transform.position = pos;
+       // m_characterController.transform.position = pos;
         m_characterController.transform.rotation = quat;
     }
 

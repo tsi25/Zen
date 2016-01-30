@@ -5,6 +5,8 @@ public class Watcher : MonoBehaviour
 {
     private const int INTERACTIVE_LAYER_ID = 8;
 
+    public GameObject rotationController;
+
     private InteractibleObject currentInteractibleObject = null;
 
     public InteractibleObject CurrentInteractibleObject
@@ -12,21 +14,26 @@ public class Watcher : MonoBehaviour
         get { return currentInteractibleObject; }
         set
         {
-            if(currentInteractibleObject != value)
-            {
-                //if there is a current interactible, and we are changing it, then stop it.
-                if (currentInteractibleObject != null)  currentInteractibleObject.IsInteracting = false;
+            if (currentInteractibleObject == value) return;
 
-                //set the value, and start the new one, if there is a new one
-                currentInteractibleObject = value;
-                if (currentInteractibleObject != null)  currentInteractibleObject.IsInteracting = true;
+            if (value == null)
+            {
+                currentInteractibleObject.IsInteracting = false;
+                currentInteractibleObject = null;
             }
+            else
+            {
+                currentInteractibleObject = value;
+                currentInteractibleObject.IsInteracting = true;
+            }
+            
         }
     }
 
 
     public void Update()
     {
+        transform.rotation = rotationController.transform.rotation;
         RaycastHit[] hits = Physics.RaycastAll(transform.position, transform.forward, Mathf.Infinity);
 
         //run through all the hits

@@ -84,15 +84,15 @@ public class StereoCameraManager : MonoBehaviour
         {
             Vector3 lateralCameraOffset = 0.5f * rightVector * (IPDInMM / 1000.0f) * worldScale;
             Vector3 offset = eyeOffsetInMM * worldScale / 1000.0f;
-            leftCamera.transform.localPosition = -lateralCameraOffset + offset;
+           // leftCamera.transform.localPosition = -lateralCameraOffset + offset;
             leftCamera.transform.rotation = transform.rotation;
-            rightCamera.transform.localPosition = lateralCameraOffset + offset;
+            //rightCamera.transform.localPosition = lateralCameraOffset + offset;
             rightCamera.transform.rotation = transform.rotation;
         }
         else
         {
-            leftCamera.transform.position = transform.position;
-            leftCamera.transform.rotation = transform.rotation;
+            //leftCamera.transform.position = transform.position;
+            //leftCamera.transform.rotation = transform.rotation;
         }
     }
 

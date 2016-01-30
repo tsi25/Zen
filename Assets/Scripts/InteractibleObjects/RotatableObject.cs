@@ -3,19 +3,58 @@ using System.Collections;
 
 public class RotatableObject : InteractibleObject
 {
+    public enum RotationDirection
+    {
+        X = 0,
+        Y = 1,
+        Z = 2
+    }
+
+    public RotationDirection rotationDirection = RotationDirection.Y;
     public float rotationSpeed = 1f;
+    private bool winding = false;
 
     public override void StartInteraction()
     {
-        StopAllCoroutines();
-        base.StartInteraction();
+        if(winding == false)
+        {
+            winding = true;
+            StopAllCoroutines();
+            StartCoroutine(WindUp());
+        }
+    }
+
+
+    public Vector3 DesiredRotationDirection
+    {
+        get
+        {
+            Vector3 axis = Vector3.zero;
+            switch(rotationDirection)
+            {
+                case RotationDirection.X:
+                    axis = Vector3.left;
+                    break;
+
+                case RotationDirection.Y:
+                    axis = Vector3.up;
+                    break;
+
+                case RotationDirection.Z:
+                    axis = Vector3.forward;
+                    break;
+            }
+
+            return axis;
+        }
     }
 
 
     public override void StopInteraction()
     {
         StopAllCoroutines();
-        StartCoroutine(StopCoroutine());
+        winding = false;
+        StartCoroutine(WindDown());
     }
 
 
@@ -25,13 +64,14 @@ public class RotatableObject : InteractibleObject
     }
 
 
-    public override IEnumerator InteractionDelay()
+    private IEnumerator WindUp()
     {
+        Debug.Log("winding up");
         float elapsedTime = 0f;
 
         while(elapsedTime < waitTime)
         {
-            transform.Rotate(Vector3.left, rotationSpeed * elapsedTime/waitTime *Time.deltaTime);
+            transform.Rotate(DesiredRotationDirection, rotationSpeed * elapsedTime/waitTime *Time.deltaTime);
 
             elapsedTime += Time.deltaTime;
             yield return null;
@@ -43,21 +83,23 @@ public class RotatableObject : InteractibleObject
 
     private IEnumerator InteractCoroutine()
     {
-        while(IsInteracting)
+        Debug.Log("looping");
+        while (IsInteracting)
         {
-            transform.Rotate(Vector3.left, rotationSpeed * Time.deltaTime);
+            transform.Rotate(DesiredRotationDirection, rotationSpeed * Time.deltaTime);
             yield return null;
         }
     }
 
 
-    private IEnumerator StopCoroutine()
+    private IEnumerator WindDown()
     {
+        Debug.Log("winding down");
         float elapsedTime = 0f;
 
         while (elapsedTime < waitTime)
         {
-            transform.Rotate(Vector3.left, rotationSpeed * (1f - (elapsedTime / waitTime)) * Time.deltaTime);
+            transform.Rotate(DesiredRotationDirection, rotationSpeed * (1f - (elapsedTime / waitTime)) * Time.deltaTime);
 
             elapsedTime += Time.deltaTime;
             yield return null;

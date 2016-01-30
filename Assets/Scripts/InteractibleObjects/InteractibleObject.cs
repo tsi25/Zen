@@ -28,20 +28,13 @@ public class InteractibleObject : MonoBehaviour
 
     public virtual void StartInteraction()
     {
-        StartCoroutine(InteractionDelay());
+        
     }
 
 
     public virtual void StopInteraction()
     {
-        StopAllCoroutines();
-    }
-
-
-    public virtual IEnumerator InteractionDelay()
-    {
-        yield return new WaitForSeconds(waitTime);
-        Interact();
+        
     }
 
 
