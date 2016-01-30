@@ -27,7 +27,7 @@ public class Watcher : MonoBehaviour
 
     public void Update()
     {
-        RaycastHit[] hits = Physics.RaycastAll(transform.position, Vector3.forward, Mathf.Infinity);
+        RaycastHit[] hits = Physics.RaycastAll(transform.position, transform.forward, Mathf.Infinity);
 
         //run through all the hits
         for(int i = 0; i < hits.Length; i++)
