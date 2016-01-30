@@ -152,6 +152,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waitTime: 1
   silhouette: {fileID: 135568}
+  delay: 0
+  delayTime: 1
+  rotationDirection: 1
   rotationSpeed: 20
 --- !u!1001 &100100000
 Prefab:

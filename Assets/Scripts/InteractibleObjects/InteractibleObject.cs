@@ -6,6 +6,9 @@ public class InteractibleObject : MonoBehaviour
     public float waitTime = 1f;
     public GameObject silhouette;
 
+    public bool delay = false;
+    public float delayTime = 1f;
+
     private bool isInteracting = false;
     
     public bool IsInteracting
@@ -28,13 +31,27 @@ public class InteractibleObject : MonoBehaviour
 
     public virtual void StartInteraction()
     {
-        
+        if(delay)
+        {
+            StartCoroutine(Delay());
+        }
+        else
+        {
+            Interact();
+        }
     }
 
 
     public virtual void StopInteraction()
     {
         
+    }
+
+
+    protected virtual IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(delayTime);
+        Interact();
     }
 
 
