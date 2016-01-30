@@ -86,6 +86,37 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &624584307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 624584308}
+  m_Layer: 0
+  m_Name: Doors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &624584308
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624584307}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 798965271}
+  - {fileID: 1120531455}
+  - {fileID: 1038772427}
+  - {fileID: 1058924141}
+  m_Father: {fileID: 1946796029}
+  m_RootOrder: 1
 --- !u!1001 &776209574
 Prefab:
   m_ObjectHideFlags: 0
@@ -128,6 +159,233 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25e0e54be09174828a89c99dadcfd40f, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &798965270
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 624584308}
+    m_Modifications:
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 196550, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_Name
+      value: DeckCenterDoor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &798965271 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+  m_PrefabInternal: {fileID: 798965270}
+--- !u!1001 &1038772426
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 624584308}
+    m_Modifications:
+    - target: {fileID: 421554, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 421554, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421554, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 421554, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421554, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421554, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421554, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421554, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 127720, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+      propertyPath: m_Name
+      value: DeckRightDoor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1038772427 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 421554, guid: 8368933936b02814e9589bcdb792eb96, type: 2}
+  m_PrefabInternal: {fileID: 1038772426}
+--- !u!1001 &1058924140
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 624584308}
+    m_Modifications:
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 196550, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+      propertyPath: m_Name
+      value: ConectingDoor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1058924141 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 423936, guid: c08d4572426994d4a965ed1a15c5a7c8, type: 2}
+  m_PrefabInternal: {fileID: 1058924140}
+--- !u!1 &1087939323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1087939324}
+  m_Layer: 0
+  m_Name: Props
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1087939324
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087939323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1946796029}
+  m_RootOrder: 0
+--- !u!1001 &1120531454
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 624584308}
+    m_Modifications:
+    - target: {fileID: 425060, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 425060, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425060, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 425060, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425060, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425060, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425060, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 425060, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 169956, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+      propertyPath: m_Name
+      value: DeckLeftDoor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1120531455 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 425060, guid: e804e4051e69cef4d9f6be5500f165bd, type: 2}
+  m_PrefabInternal: {fileID: 1120531454}
 --- !u!1 &1844329506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,3 +1858,32 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e909de484141e29488219a1548d96cab, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1946796028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1946796029}
+  m_Layer: 0
+  m_Name: Environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946796029
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1946796028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1087939324}
+  - {fileID: 624584308}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
