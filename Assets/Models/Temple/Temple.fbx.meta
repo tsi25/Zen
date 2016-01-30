@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: e909de484141e29488219a1548d96cab
+timeCreated: 1454137030
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bar1
+    100002: Bar1 1
+    100004: Bar1 2
+    100006: Bar10
+    100008: Bar10 1
+    100010: Bar10 2
+    100012: Bar11
+    100014: Bar12
+    100016: Bar13
+    100018: Bar14
+    100020: Bar15
+    100022: Bar16
+    100024: Bar17
+    100026: Bar18
+    100028: Bar19
+    100030: Bar2
+    100032: Bar2 1
+    100034: Bar2 2
+    100036: Bar20
+    100038: Bar3
+    100040: Bar3 1
+    100042: Bar3 2
+    100044: Bar4
+    100046: Bar4 1
+    100048: Bar4 2
+    100050: Bar5
+    100052: Bar5 1
+    100054: Bar5 2
+    100056: Bar6
+    100058: Bar6 1
+    100060: Bar6 2
+    100062: Bar7
+    100064: Bar7 1
+    100066: Bar7 2
+    100068: Bar8
+    100070: Bar8 1
+    100072: Bar8 2
+    100074: Bar9
+    100076: Bar9 1
+    100078: Bar9 2
+    100080: Deck
+    100082: Floor
+    100084: Garden
+    100086: pCube1
+    100088: Sand
+    100090: Support1
+    100092: Support2
+    100094: Support3
+    100096: Support4
+    100098: Support5
+    100100: Support6
+    100102: Supports
+    100104: //RootNode
+    100106: Temple
+    100108: TempleRoom
+    100110: Wall
+    100112: Window_1
+    100114: Window_2
+    100116: Window_3
+    100118: Windows
+    400000: Bar1
+    400002: Bar1 1
+    400004: Bar1 2
+    400006: Bar10
+    400008: Bar10 1
+    400010: Bar10 2
+    400012: Bar11
+    400014: Bar12
+    400016: Bar13
+    400018: Bar14
+    400020: Bar15
+    400022: Bar16
+    400024: Bar17
+    400026: Bar18
+    400028: Bar19
+    400030: Bar2
+    400032: Bar2 1
+    400034: Bar2 2
+    400036: Bar20
+    400038: Bar3
+    400040: Bar3 1
+    400042: Bar3 2
+    400044: Bar4
+    400046: Bar4 1
+    400048: Bar4 2
+    400050: Bar5
+    400052: Bar5 1
+    400054: Bar5 2
+    400056: Bar6
+    400058: Bar6 1
+    400060: Bar6 2
+    400062: Bar7
+    400064: Bar7 1
+    400066: Bar7 2
+    400068: Bar8
+    400070: Bar8 1
+    400072: Bar8 2
+    400074: Bar9
+    400076: Bar9 1
+    400078: Bar9 2
+    400080: Deck
+    400082: Floor
+    400084: Garden
+    400086: pCube1
+    400088: Sand
+    400090: Support1
+    400092: Support2
+    400094: Support3
+    400096: Support4
+    400098: Support5
+    400100: Support6
+    400102: Supports
+    400104: //RootNode
+    400106: Temple
+    400108: TempleRoom
+    400110: Wall
+    400112: Window_1
+    400114: Window_2
+    400116: Window_3
+    400118: Windows
+    2300000: Bar1
+    2300002: Bar1 1
+    2300004: Bar1 2
+    2300006: Bar10
+    2300008: Bar10 1
+    2300010: Bar10 2
+    2300012: Bar11
+    2300014: Bar12
+    2300016: Bar13
+    2300018: Bar14
+    2300020: Bar15
+    2300022: Bar16
+    2300024: Bar17
+    2300026: Bar18
+    2300028: Bar19
+    2300030: Bar2
+    2300032: Bar2 1
+    2300034: Bar2 2
+    2300036: Bar20
+    2300038: Bar3
+    2300040: Bar3 1
+    2300042: Bar3 2
+    2300044: Bar4
+    2300046: Bar4 1
+    2300048: Bar4 2
+    2300050: Bar5
+    2300052: Bar5 1
+    2300054: Bar5 2
+    2300056: Bar6
+    2300058: Bar6 1
+    2300060: Bar6 2
+    2300062: Bar7
+    2300064: Bar7 1
+    2300066: Bar7 2
+    2300068: Bar8
+    2300070: Bar8 1
+    2300072: Bar8 2
+    2300074: Bar9
+    2300076: Bar9 1
+    2300078: Bar9 2
+    2300080: Floor
+    2300082: pCube1
+    2300084: Sand
+    2300086: Support1
+    2300088: Support2
+    2300090: Support3
+    2300092: Support4
+    2300094: Support5
+    2300096: Support6
+    2300098: TempleRoom
+    3300000: Bar1
+    3300002: Bar1 1
+    3300004: Bar1 2
+    3300006: Bar10
+    3300008: Bar10 1
+    3300010: Bar10 2
+    3300012: Bar11
+    3300014: Bar12
+    3300016: Bar13
+    3300018: Bar14
+    3300020: Bar15
+    3300022: Bar16
+    3300024: Bar17
+    3300026: Bar18
+    3300028: Bar19
+    3300030: Bar2
+    3300032: Bar2 1
+    3300034: Bar2 2
+    3300036: Bar20
+    3300038: Bar3
+    3300040: Bar3 1
+    3300042: Bar3 2
+    3300044: Bar4
+    3300046: Bar4 1
+    3300048: Bar4 2
+    3300050: Bar5
+    3300052: Bar5 1
+    3300054: Bar5 2
+    3300056: Bar6
+    3300058: Bar6 1
+    3300060: Bar6 2
+    3300062: Bar7
+    3300064: Bar7 1
+    3300066: Bar7 2
+    3300068: Bar8
+    3300070: Bar8 1
+    3300072: Bar8 2
+    3300074: Bar9
+    3300076: Bar9 1
+    3300078: Bar9 2
+    3300080: Floor
+    3300082: pCube1
+    3300084: Sand
+    3300086: Support1
+    3300088: Support2
+    3300090: Support3
+    3300092: Support4
+    3300094: Support5
+    3300096: Support6
+    3300098: TempleRoom
+    4300000: TempleRoom
+    4300002: Bar1
+    4300004: Bar2
+    4300006: Bar3
+    4300008: Bar4
+    4300010: Bar5
+    4300012: Bar6
+    4300014: Bar7
+    4300016: Bar8
+    4300018: Bar9
+    4300020: Bar10
+    4300022: Bar20
+    4300024: Bar19
+    4300026: Bar18
+    4300028: Bar17
+    4300030: Bar16
+    4300032: Bar15
+    4300034: Bar14
+    4300036: Bar13
+    4300038: Bar12
+    4300040: Bar11
+    4300042: Bar10
+    4300044: Bar9
+    4300046: Bar8
+    4300048: Bar7
+    4300050: Bar6
+    4300052: Bar5
+    4300054: Bar4
+    4300056: Bar3
+    4300058: Bar2
+    4300060: Bar1
+    4300062: Bar1
+    4300064: Bar2
+    4300066: Bar3
+    4300068: Bar4
+    4300070: Bar5
+    4300072: Bar6
+    4300074: Bar7
+    4300076: Bar8
+    4300078: Bar9
+    4300080: Bar10
+    4300082: Floor
+    4300084: Support1
+    4300086: Support2
+    4300088: Support3
+    4300090: Support4
+    4300092: Support5
+    4300094: Support6
+    4300096: Sand
+    4300098: pCube1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
