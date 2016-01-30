@@ -26,7 +26,6 @@ public class Watcher : MonoBehaviour
                 currentInteractibleObject = value;
                 currentInteractibleObject.IsInteracting = true;
             }
-            
         }
     }
 
