@@ -4,6 +4,7 @@ using System.Collections;
 public class InteractibleObject : MonoBehaviour
 {
     public float waitTime = 1f;
+    public GameObject silhouette;
 
     private bool isInteracting = false;
     
@@ -18,6 +19,8 @@ public class InteractibleObject : MonoBehaviour
 
                 if (isInteracting) StartInteraction();
                 if (!isInteracting) StopInteraction();
+
+                if(silhouette != null) silhouette.SetActive(isInteracting);
             }
         }
     }
