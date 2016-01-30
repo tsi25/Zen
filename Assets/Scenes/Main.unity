@@ -241,8 +241,9 @@ GameObject:
   - 33: {fileID: 1297801827}
   - 65: {fileID: 1297801826}
   - 23: {fileID: 1297801825}
+  - 114: {fileID: 1297801829}
   m_Layer: 8
-  m_Name: Cube (1)
+  m_Name: Cube 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -304,7 +305,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
+--- !u!114 &1297801829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1297801824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2d9083626d7f440a146048a652e2bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 1
+  rotationSpeed: 1
 --- !u!1 &1689243014
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,8 +456,9 @@ GameObject:
   - 33: {fileID: 2027743510}
   - 65: {fileID: 2027743509}
   - 23: {fileID: 2027743508}
+  - 114: {fileID: 2027743512}
   m_Layer: 8
-  m_Name: Cube (2)
+  m_Name: Cube 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,6 +521,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!114 &2027743512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027743507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2d9083626d7f440a146048a652e2bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 1
+  rotationSpeed: 3
 --- !u!1 &2129218325
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,8 +545,9 @@ GameObject:
   - 33: {fileID: 2129218328}
   - 65: {fileID: 2129218327}
   - 23: {fileID: 2129218326}
+  - 114: {fileID: 2129218330}
   m_Layer: 8
-  m_Name: Cube
+  m_Name: Cube 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -580,4 +609,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
+--- !u!114 &2129218330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2129218325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2d9083626d7f440a146048a652e2bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 1
+  rotationSpeed: 2

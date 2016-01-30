@@ -4,6 +4,23 @@ using System.Collections;
 public class InteractibleObject : MonoBehaviour
 {
     public float waitTime = 1f;
+
+    private bool isInteracting = false;
+    
+    public bool IsInteracting
+    {
+        get { return isInteracting; }
+        set
+        {
+            if(isInteracting != value)
+            {
+                isInteracting = value;
+
+                if (isInteracting) StartInteraction();
+                if (!isInteracting) StopInteraction();
+            }
+        }
+    }
     
 
     public virtual void StartInteraction()

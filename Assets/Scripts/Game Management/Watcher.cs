@@ -14,9 +14,12 @@ public class Watcher : MonoBehaviour
         {
             if(currentInteractibleObject != value)
             {
-                currentInteractibleObject.StopInteraction();
+                //if there is a current interactible, and we are changing it, then stop it.
+                if (currentInteractibleObject != null)  currentInteractibleObject.IsInteracting = false;
+
+                //set the value, and start the new one, if there is a new one
                 currentInteractibleObject = value;
-                currentInteractibleObject.StartInteraction();
+                if (currentInteractibleObject != null)  currentInteractibleObject.IsInteracting = true;
             }
         }
     }
@@ -38,9 +41,11 @@ public class Watcher : MonoBehaviour
                 {
                     //we found a new object!
                     CurrentInteractibleObject = io;
-                    break;
+                    return;
                 }
             }
         }
+
+        CurrentInteractibleObject = null;
     }
 }
