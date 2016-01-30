@@ -5,8 +5,6 @@ public class Watcher : MonoBehaviour
 {
     private const int INTERACTIVE_LAYER_ID = 8;
 
-    public float raycastDepth;
-
     private InteractibleObject currentInteractibleObject = null;
 
     public InteractibleObject CurrentInteractibleObject
