@@ -3,7 +3,10 @@ using System.Collections;
 
 public class Seppuku : StarableObject
 {
+    private const string IS_PLAYING = "IsPlaying";
+
     public float initialDelay = 30f;
+    public Animator knifeAnimator;
 
     private bool canInteract = false;
 
@@ -25,10 +28,25 @@ public class Seppuku : StarableObject
     }
 
 
+    protected override void Interact()
+    {
+        Debug.Log("interacting");
+        base.Interact();
+        if (knifeAnimator != null)
+        {
+            knifeAnimator.SetBool(IS_PLAYING, !knifeAnimator.GetBool(IS_PLAYING));
+            //knifeAnimator.SetBool(IS_CLOSED, !doorAnimator.GetBool(IS_CLOSED));
+        }
+
+        GameManager.Retrieve<FillSprites>().Hide();
+    }
+
+
     private IEnumerator InitialCountdown()
     {
         yield return new WaitForSeconds(initialDelay);
         canInteract = true;
+        Debug.Log("Can Interact!");
     }
 
 
