@@ -35,8 +35,8 @@ public class Seppuku : StarableObject
         base.Interact();
         if (knifeAnimator != null)
         {
-            knifeAnimator.SetBool(IS_OPEN, !doorAnimator.GetBool(IS_OPEN));
-            knifeAnimator.SetBool(IS_CLOSED, !doorAnimator.GetBool(IS_CLOSED));
+            //knifeAnimator.SetBool(IS_OPEN, !doorAnimator.GetBool(IS_OPEN));
+            //knifeAnimator.SetBool(IS_CLOSED, !doorAnimator.GetBool(IS_CLOSED));
         }
 
         GameManager.Retrieve<FillSprites>().Hide();
