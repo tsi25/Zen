@@ -136,7 +136,7 @@ public class StereoCameraManager : MonoBehaviour
                 leftCameraComponent.rect = new Rect(0.5f - viewPortWidth, 0, viewPortWidth, 1);
                 rightCameraComponent.rect = new Rect(0.5f, 0, viewPortWidth, 1);
             }
-            
+
             leftCameraComponent.nearClipPlane = nearClippingPlaneInMM * worldScale / 1000.0f;
             leftCameraComponent.farClipPlane = farClippingPlaneInMM * worldScale / 1000.0f;
             leftCameraComponent.fieldOfView = FOV;
