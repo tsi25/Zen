@@ -66,7 +66,7 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
-  m_LightingDataAsset: {fileID: 112000188, guid: 87ef94d3435dfef48bc6705da4a20385,
+  m_LightingDataAsset: {fileID: 112000189, guid: 87ef94d3435dfef48bc6705da4a20385,
     type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
@@ -2958,6 +2958,24 @@ Prefab:
       value: 
       objectReference: {fileID: 1665783687, guid: edfe6410f5b05374482d01049c929657,
         type: 3}
+    - target: {fileID: 2300246, guid: e909de484141e29488219a1548d96cab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1085492895, guid: 7d63953995a461b4eb05660914b3480a,
+        type: 3}
+    - target: {fileID: 2300284, guid: e909de484141e29488219a1548d96cab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1526126398, guid: 90a1eeda63a41064bbdef9227b75cb9a,
+        type: 3}
+    - target: {fileID: 2300284, guid: e909de484141e29488219a1548d96cab, type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100314, guid: e909de484141e29488219a1548d96cab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e909de484141e29488219a1548d96cab, type: 3}
   m_IsPrefabParent: 0

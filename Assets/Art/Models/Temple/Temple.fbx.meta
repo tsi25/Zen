@@ -162,6 +162,7 @@ ModelImporter:
     100308: Roof 1
     100310: polySurface1
     100312: polySurface2
+    100314: Roof 2
     400000: Bar1
     400002: Bar1 1
     400004: Bar1 2
@@ -319,6 +320,7 @@ ModelImporter:
     400308: Roof 1
     400310: polySurface1
     400312: polySurface2
+    400314: Roof 2
     2300000: Bar1
     2300002: Bar1 1
     2300004: Bar1 2
@@ -461,6 +463,7 @@ ModelImporter:
     2300278: Roof 1
     2300280: polySurface1
     2300282: polySurface2
+    2300284: Roof
     3300000: Bar1
     3300002: Bar1 1
     3300004: Bar1 2
@@ -603,6 +606,7 @@ ModelImporter:
     3300278: Roof 1
     3300280: polySurface1
     3300282: polySurface2
+    3300284: Roof
     4300000: TempleRoom
     4300002: Bar1
     4300004: Bar2
