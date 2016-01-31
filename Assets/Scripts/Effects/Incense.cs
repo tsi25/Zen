@@ -32,7 +32,7 @@ public class Incense : MonoBehaviour
         }
         else
         {
-            newNode = Instantiate(nodePrefab) as IncenseNode;
+            newNode = Instantiate(nodePrefab, spawnPos.position, Quaternion.identity) as IncenseNode;
             activeNodes.Add(newNode);
         }
 
