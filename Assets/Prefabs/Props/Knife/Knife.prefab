@@ -11,6 +11,23 @@ GameObject:
   - 33: {fileID: 3373478}
   - 23: {fileID: 2357530}
   m_Layer: 0
+  m_Name: Silhouette
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &138458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 408654}
+  - 33: {fileID: 3319940}
+  - 23: {fileID: 2311936}
+  m_Layer: 0
   m_Name: HisuKnife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +43,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 416484}
   - 95: {fileID: 9514276}
-  m_Layer: 0
+  - 114: {fileID: 11478956}
+  - 136: {fileID: 13617588}
+  m_Layer: 8
   m_Name: Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +59,19 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 131658}
   m_LocalRotation: {x: 0.00000018404174, y: 0.70710665, z: -0.00000018404168, w: 0.7071069}
-  m_LocalPosition: {x: -0.008188136, y: 0.00086904294, z: 0.29777762}
+  m_LocalPosition: {x: -0.008188151, y: -0.11599994, z: 0.29777765}
+  m_LocalScale: {x: 38.939213, y: 36.93333, z: 34.64964}
+  m_Children: []
+  m_Father: {fileID: 416484}
+  m_RootOrder: 1
+--- !u!4 &408654
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138458}
+  m_LocalRotation: {x: 0.00000018404174, y: 0.70710665, z: -0.00000018404168, w: 0.7071069}
+  m_LocalPosition: {x: -0.008188136, y: -0.116, z: 0.29777762}
   m_LocalScale: {x: 38.93922, y: 36.93333, z: 34.649647}
   m_Children: []
   m_Father: {fileID: 416484}
@@ -51,19 +82,20 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 141582}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0.349, z: 0}
+  m_LocalRotation: {x: 0.6961009, y: 0.717944, z: -0.000000113409236, w: -0.00000011696793}
+  m_LocalPosition: {x: 1.824, y: -2.297, z: -0.079}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 408654}
   - {fileID: 401790}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!23 &2357530
+--- !u!23 &2311936
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 131658}
+  m_GameObject: {fileID: 138458}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -84,6 +116,39 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!23 &2357530
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131658}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b19c31c184fb62f4c9cf5bdf9b897aab, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3319940
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138458}
+  m_Mesh: {fileID: 4300010, guid: ea898e5d453e61f4dacc541551236f02, type: 3}
 --- !u!33 &3373478
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -100,7 +165,7 @@ Animator:
   m_GameObject: {fileID: 141582}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ad5bb1b6aa31e35439c9931dcda72687, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -108,13 +173,47 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11478956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e5e15a42ab06644842c9df4588cc68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 1
+  silhouette: {fileID: 131658}
+  delay: 1
+  delayTime: 5
+  initialDelay: 1
+  knifeAnimator: {fileID: 9514276}
+--- !u!136 &13617588
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.15
+  m_Height: 1
+  m_Direction: 2
+  m_Center: {x: 0, y: -0.1, z: 0.03}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b8e3a9aeacc70ba4ba51d0b0e0a83557, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 141582}

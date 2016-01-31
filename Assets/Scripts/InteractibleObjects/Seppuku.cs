@@ -3,8 +3,7 @@ using System.Collections;
 
 public class Seppuku : StarableObject
 {
-    private const string IS_OPEN = "IsOpen";
-    private const string IS_CLOSED = "IsClosed";
+    private const string IS_PLAYING = "IsPlaying";
 
     public float initialDelay = 30f;
     public Animator knifeAnimator;
@@ -31,11 +30,11 @@ public class Seppuku : StarableObject
 
     protected override void Interact()
     {
-        base.Interact();
+        Debug.Log("interacting");
         base.Interact();
         if (knifeAnimator != null)
         {
-            //knifeAnimator.SetBool(IS_OPEN, !doorAnimator.GetBool(IS_OPEN));
+            knifeAnimator.SetBool(IS_PLAYING, !knifeAnimator.GetBool(IS_PLAYING));
             //knifeAnimator.SetBool(IS_CLOSED, !doorAnimator.GetBool(IS_CLOSED));
         }
 
@@ -47,6 +46,7 @@ public class Seppuku : StarableObject
     {
         yield return new WaitForSeconds(initialDelay);
         canInteract = true;
+        Debug.Log("Can Interact!");
     }
 
 
