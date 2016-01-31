@@ -5,6 +5,8 @@ public class Seppuku : StarableObject
 {
     private const string IS_PLAYING = "IsPlaying";
 
+    public Transform targetTransform;
+
     public float initialDelay = 30f;
     public Animator knifeAnimator;
 
@@ -30,10 +32,10 @@ public class Seppuku : StarableObject
 
     protected override void Interact()
     {
-        Debug.Log("interacting");
         base.Interact();
         if (knifeAnimator != null)
         {
+            transform.SetParent(targetTransform);
             knifeAnimator.SetBool(IS_PLAYING, !knifeAnimator.GetBool(IS_PLAYING));
             //knifeAnimator.SetBool(IS_CLOSED, !doorAnimator.GetBool(IS_CLOSED));
         }
