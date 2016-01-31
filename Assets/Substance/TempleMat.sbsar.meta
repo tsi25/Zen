@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 730991875285d3b4a95b70658960274f
-timeCreated: 1454172179
+timeCreated: 1454206681
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -123,6 +123,13 @@ SubstanceImporter:
             offset: {x: 0, y: 0}
         data:
           first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 15, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
             name: _ParallaxMap
           second:
             texture: {instanceID: 0}
@@ -156,13 +163,6 @@ SubstanceImporter:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
             offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 15, y: 1}
-            offset: {x: 0, y: 0}
       floats:
         data:
           first:
@@ -178,10 +178,6 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Parallax
-          second: 0.015
-        data:
-          first:
             name: _ZWrite
           second: 1
         data:
@@ -190,8 +186,16 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Metallic
+          second: 0
+        data:
+          first:
             name: _BumpScale
           second: 1
+        data:
+          first:
+            name: _Parallax
+          second: 0.015
         data:
           first:
             name: _OcclusionStrength
@@ -208,10 +212,6 @@ SubstanceImporter:
           first:
             name: _Mode
           second: 0
-        data:
-          first:
-            name: _Metallic
-          second: 0
       colors:
         data:
           first:
@@ -225,22 +225,22 @@ SubstanceImporter:
     - name: TempleMat_basecolor
       alphaSource: 6
       filterMode: 1
-      aniso: 1
+      aniso: 8
       wrapMode: 0
     - name: TempleMat_normal
       alphaSource: 0
       filterMode: 1
-      aniso: 1
+      aniso: 8
       wrapMode: 0
     - name: TempleMat_height
       alphaSource: 0
       filterMode: 1
-      aniso: 1
+      aniso: 8
       wrapMode: 0
     - name: TempleMat_metalic
       alphaSource: 7
       filterMode: 1
-      aniso: 1
+      aniso: 8
       wrapMode: 0
     textureAssignments:
     - shaderProp:
@@ -252,13 +252,13 @@ SubstanceImporter:
       material: {instanceID: 0}
       baseUID: 697794878
     - shaderProp:
-        name: _ParallaxMap
-      material: {instanceID: 0}
-      baseUID: 729927052
-    - shaderProp:
         name: _MetallicGlossMap
       material: {instanceID: 0}
       baseUID: 729924563
+    - shaderProp:
+        name: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 729927052
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 

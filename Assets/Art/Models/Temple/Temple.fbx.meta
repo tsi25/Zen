@@ -141,6 +141,27 @@ ModelImporter:
     100266: Roof
     100268: WallRoofLeft
     100270: WallRoofRight
+    100272: Base
+    100274: DoorMesh
+    100276: Doors
+    100278: FrontBeam
+    100280: Gate
+    100282: GatePillarCenterLeft
+    100284: GatePillarCenterRight
+    100286: GatePillarLeft
+    100288: GatePillarRearRight
+    100290: GatePillarRight
+    100292: GatPillarRearLeft
+    100294: JointFrontLeft
+    100296: JointFrontRight
+    100298: JointRearLeft
+    100300: JointRearRight
+    100302: LeftBeam
+    100304: RearBeam
+    100306: RightBeam
+    100308: Roof 1
+    100310: polySurface1
+    100312: polySurface2
     400000: Bar1
     400002: Bar1 1
     400004: Bar1 2
@@ -277,6 +298,27 @@ ModelImporter:
     400266: Roof
     400268: WallRoofLeft
     400270: WallRoofRight
+    400272: Base
+    400274: DoorMesh
+    400276: Doors
+    400278: FrontBeam
+    400280: Gate
+    400282: GatePillarCenterLeft
+    400284: GatePillarCenterRight
+    400286: GatePillarLeft
+    400288: GatePillarRearRight
+    400290: GatePillarRight
+    400292: GatPillarRearLeft
+    400294: JointFrontLeft
+    400296: JointFrontRight
+    400298: JointRearLeft
+    400300: JointRearRight
+    400302: LeftBeam
+    400304: RearBeam
+    400306: RightBeam
+    400308: Roof 1
+    400310: polySurface1
+    400312: polySurface2
     2300000: Bar1
     2300002: Bar1 1
     2300004: Bar1 2
@@ -399,6 +441,26 @@ ModelImporter:
     2300238: Wood24
     2300240: WallRoofLeft
     2300242: WallRoofRight
+    2300244: Base
+    2300246: DoorMesh
+    2300248: Doors
+    2300250: FrontBeam
+    2300252: GatePillarCenterLeft
+    2300254: GatePillarCenterRight
+    2300256: GatePillarLeft
+    2300258: GatePillarRearRight
+    2300260: GatePillarRight
+    2300262: GatPillarRearLeft
+    2300264: JointFrontLeft
+    2300266: JointFrontRight
+    2300268: JointRearLeft
+    2300270: JointRearRight
+    2300272: LeftBeam
+    2300274: RearBeam
+    2300276: RightBeam
+    2300278: Roof 1
+    2300280: polySurface1
+    2300282: polySurface2
     3300000: Bar1
     3300002: Bar1 1
     3300004: Bar1 2
@@ -521,6 +583,26 @@ ModelImporter:
     3300238: Wood24
     3300240: WallRoofLeft
     3300242: WallRoofRight
+    3300244: Base
+    3300246: DoorMesh
+    3300248: Doors
+    3300250: FrontBeam
+    3300252: GatePillarCenterLeft
+    3300254: GatePillarCenterRight
+    3300256: GatePillarLeft
+    3300258: GatePillarRearRight
+    3300260: GatePillarRight
+    3300262: GatPillarRearLeft
+    3300264: JointFrontLeft
+    3300266: JointFrontRight
+    3300268: JointRearLeft
+    3300270: JointRearRight
+    3300272: LeftBeam
+    3300274: RearBeam
+    3300276: RightBeam
+    3300278: Roof 1
+    3300280: polySurface1
+    3300282: polySurface2
     4300000: TempleRoom
     4300002: Bar1
     4300004: Bar2
@@ -643,6 +725,26 @@ ModelImporter:
     4300238: Wood24
     4300240: WallRoofRight
     4300242: WallRoofLeft
+    4300244: GatePillarRight
+    4300246: GatePillarLeft
+    4300248: Base
+    4300250: JointFrontRight
+    4300252: JointFrontLeft
+    4300254: FrontBeam
+    4300256: LeftBeam
+    4300258: RightBeam
+    4300260: GatePillarRearRight
+    4300262: GatPillarRearLeft
+    4300264: JointRearRight
+    4300266: JointRearLeft
+    4300268: RearBeam
+    4300270: DoorMesh
+    4300272: Doors
+    4300274: GatePillarCenterLeft
+    4300276: GatePillarCenterRight
+    4300278: Roof
+    4300280: polySurface1
+    4300282: polySurface2
     9500000: //RootNode
   materials:
     importMaterials: 1
