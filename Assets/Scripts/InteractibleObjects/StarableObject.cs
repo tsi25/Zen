@@ -14,7 +14,7 @@ public class StarableObject : InteractibleObject
     public override void StopInteraction()
     {
         StopAllCoroutines();
-        GameManager.Retrieve<FillSprites>().Hide();
+        //GameManager.Retrieve<FillSprites>().Hide();
     }
 
 
@@ -25,7 +25,7 @@ public class StarableObject : InteractibleObject
 
         while(elapsedTime < time)
         {
-            fillSprites.FillAmount = Mathf.Lerp(0f, 1f, elapsedTime/time);
+            if (fillSprites != null) fillSprites.FillAmount = Mathf.Lerp(0f, 1f, elapsedTime/time);
 
             elapsedTime += Time.deltaTime;
             yield return null;

@@ -46,7 +46,7 @@ public class MusicPlayer : StarableObject
             StartCoroutine(FillSprites(delayTime));
         }
 
-        GameManager.Retrieve<FillSprites>().Show();
+        //GameManager.Retrieve<FillSprites>().Show();
     }
 
     protected override void Interact()
@@ -59,6 +59,6 @@ public class MusicPlayer : StarableObject
             GameManager.Retrieve<SoundManager>().PlayMusic(clip);
         }
 
-        GameManager.Retrieve<FillSprites>().Hide();
+        //GameManager.Retrieve<FillSprites>().Hide();
     }
 }

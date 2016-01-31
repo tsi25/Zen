@@ -32,7 +32,7 @@ public class Watcher : MonoBehaviour
 
     public void Update()
     {
-        transform.rotation = rotationController.transform.rotation;
+        if(rotationController != null) transform.rotation = rotationController.transform.rotation;
         RaycastHit[] hits = Physics.RaycastAll(transform.position, transform.forward, Mathf.Infinity);
 
         //run through all the hits

@@ -23,7 +23,7 @@ public class SlidingDoor : StarableObject
             StartCoroutine(FillSprites(delayTime));
         }
         
-        GameManager.Retrieve<FillSprites>().Show();
+        //GameManager.Retrieve<FillSprites>().Show();
     }
 
     protected override void Interact()
@@ -36,6 +36,6 @@ public class SlidingDoor : StarableObject
             doorAnimator.SetBool(IS_CLOSED, !doorAnimator.GetBool(IS_CLOSED));
         }
 
-        GameManager.Retrieve<FillSprites>().Hide();
+        //GameManager.Retrieve<FillSprites>().Hide();
     }
 }
