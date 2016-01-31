@@ -140,7 +140,7 @@ public class PopupManager : MonoBehaviour
     /// <summary>
     /// Unity GUI callback.
     /// </summary>
-    public void OnGUI()
+    /*public void OnGUI()
     {
         if (showText)
         {
@@ -162,5 +162,5 @@ public class PopupManager : MonoBehaviour
                 baselineChart.line.enabled = showPlots;
             }
         }
-    }
+    }*/
 }

@@ -9,9 +9,9 @@ public class InteractibleObject : MonoBehaviour
     public bool delay = false;
     public float delayTime = 1f;
 
-    private bool isInteracting = false;
+    protected bool isInteracting = false;
     
-    public bool IsInteracting
+    public virtual bool IsInteracting
     {
         get { return isInteracting; }
         set
