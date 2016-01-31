@@ -138,6 +138,9 @@ ModelImporter:
     100260: Wood22
     100262: Wood23
     100264: Wood24
+    100266: Roof
+    100268: WallRoofLeft
+    100270: WallRoofRight
     400000: Bar1
     400002: Bar1 1
     400004: Bar1 2
@@ -271,6 +274,9 @@ ModelImporter:
     400260: Wood22
     400262: Wood23
     400264: Wood24
+    400266: Roof
+    400268: WallRoofLeft
+    400270: WallRoofRight
     2300000: Bar1
     2300002: Bar1 1
     2300004: Bar1 2
@@ -391,6 +397,8 @@ ModelImporter:
     2300234: Wood22
     2300236: Wood23
     2300238: Wood24
+    2300240: WallRoofLeft
+    2300242: WallRoofRight
     3300000: Bar1
     3300002: Bar1 1
     3300004: Bar1 2
@@ -511,6 +519,8 @@ ModelImporter:
     3300234: Wood22
     3300236: Wood23
     3300238: Wood24
+    3300240: WallRoofLeft
+    3300242: WallRoofRight
     4300000: TempleRoom
     4300002: Bar1
     4300004: Bar2
@@ -631,6 +641,8 @@ ModelImporter:
     4300234: Wood22
     4300236: Wood23
     4300238: Wood24
+    4300240: WallRoofRight
+    4300242: WallRoofLeft
     9500000: //RootNode
   materials:
     importMaterials: 1
